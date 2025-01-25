@@ -1,7 +1,8 @@
 .hero-h1 {
-  font-family:Arial, Helvetica, sans-serif;
   color: #000000;
+  font-family: "Arvo", serif;
   font-weight: 900;
+  font-style: normal;
 }
 
 *::-webkit-scrollbar{
@@ -10,4 +11,39 @@
 
 .btn{
   background-color: #56BBD0;
+}
+
+.sec-2{
+  height: 100vh;
+}
+
+main{
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  transition: scroll-snap-align 0.5s ease-in-out;
+  background: #F9FBFD;
+  font-family: "Arvo", serif;
+}
+
+section{
+  scroll-snap-align: start;
+}
+
+.cards{
+  height: 18rem;
+}
+.cards:hover{
+  transform: scale(1);
+  transition: transform 0.8s ease-in-out;
+  background-color: white;
+  cursor:default;
+}
+
+.sec-2:last-child div p{
+  font-size: .8rem;
+  font-family: "DM Sans", sans-serif;
+}
+.sec-2:last-child div h1{
+  font-family: "DM Sans", sans-serif;
 }

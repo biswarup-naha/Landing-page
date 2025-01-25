@@ -4,7 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>StartupLand</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="./style.css" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
@@ -12,12 +23,12 @@
 
 <body>
     <main class="max-h-screen max-w-screen">
-        <section class="h-screen bg-[url('./public/bg.png')] bg-cover bg-center">
-            <nav class="sticky top-1 w-full flex items-center px-6 py-4 bg-transparent z-10">
+        <section class=" sc-1 h-screen bg-[url('./public/bg.png')] bg-cover bg-center">
+            <nav class="top-1 w-full flex items-center px-6 py-4 bg-transparent z-10">
                 <img src="./public/logo.png" alt="logo" class="h-9 w-48 ml-44" />
                 <ul class="flex space-x-10">
                     <li><a href="#">Home</a></li>
-                    <li>
+                    <li popovertarget="ad">
                         <a href="#">Advertise
                             <i class="fa fa-caret-down text-gray-500" aria-hidden="true"></i></a>
                     </li>
@@ -29,23 +40,79 @@
                 </ul>
             </nav>
             <div class="relative top-28 left-10 max-w-screen-sm">
-                <h1 class="hero-h1 text-4xl font-bold tracking-wide ml-44 leading-normal max-w-screen-sm">
+                <h1 class="hero-h1 text-4xl ml-44 leading-normal max-w-screen-sm">
                     A Creative way <br />to grow your Exciting <br />Business ideas
                 </h1>
-                    <p class="text-sm mt-5 ml-44 leading-10 max-w-screen-sm">
-                        Get your blood tests delivered at let home collect sample from the
-                        <br />
-                        victory of the managments that supplies best design system <br />
-                        guidelines ever.
-                    </p>
+                <p class="text-sm mt-5 ml-44 leading-10 max-w-screen-sm">
+                    Get your blood tests delivered at let home collect sample from the
+                    <br />
+                    victory of the managments that supplies best design system <br />
+                    guidelines ever.
+                </p>
                 <input type="text" name="" id="input" placeholder="Type your domain name"
                     class="w-1/2 h-14 px-4 py-2 mt-4 ml-44 bg-white border-1 border-blue-100 rounded-lg focus:outline-none focus:shadow-outline" />
-                <button class="px-4 h-14 py-2 text-white rounded-lg shadow hover:cursor-pointer btn">Get Started</button>
-                <span  class="relative left-45 top-10 font-bold text-gray-400">Our clients <img src="./public/clients.png" alt="" class="w-72 inline-block ml-10" /></span>
+                <button class="px-4 h-14 py-2 text-white rounded-lg shadow hover:cursor-pointer btn">Get
+                    Started</button>
+                <span class="relative left-45 top-10 font-bold text-gray-400">Our clients <img
+                        src="./public/clients.png" alt="" class="w-72 inline-block ml-10" /></span>
             </div>
-            <img src="./public/leaf.png" alt="" class="w-48 absolute top-screen-md" />
+            <img src="./public/leaf.png" alt="" class="w-48" />
         </section>
-        <section></section>
+        <section class="sec-2 relative w-full">
+            <div class="text-center text-xs py-10 text-emerald-500 font-bold">
+                Ideal solutions for you
+                <h1 class="text-lg text-black mt-2 font-bold">Go beyond ultimate features</h1>
+            </div>
+            <div class="grid grid-cols-3 gap-0 mx-auto px-48 w-3/4">
+
+                <div class="cards shadow-xs p-8">
+                    <img src="./public/icon.png" alt="" class="w-14">
+                    <h1 class="text-sm mt-4 font-bold">Email Subscription</h1>
+                    <p class="text-gray-600 mt-2 mb-6">We're driven beyond just finishing projects. We want to find smart
+                        solutions.</p>
+                        <a href="#" class="text-xs text-blue-500 font-medium" style="font-family: 'DM Sans','serif';">Learn more ></a>
+                </div>
+                <div class="cards shadow-xs p-8">
+                    <img src="./public/icon (1).png" alt="" class="w-14">
+                    <h1 class="text-sm mt-4 font-bold">Bolt Performance</h1>
+                    <p class="text-gray-600 mt-2 mb-6">We're driven beyond just finishing projects. We want to find smart
+                        solutions.</p>
+                        <a href="#" class="text-xs text-blue-500 font-medium" style="font-family: 'DM Sans','serif';">Learn more ></a>
+                </div>
+
+                <div class="cards shadow-xs p-8">
+                    <img src="./public/icon (2).png" alt="" class="w-14">
+                    <h1 class="text-sm mt-4 font-bold">Secure Transaction</h1>
+                    <p class="text-gray-600 mt-2 mb-6">We're driven beyond just finishing projects. We want to find smart
+                        solutions.</p>
+                        <a href="#" class="text-xs text-blue-500 font-medium" style="font-family: 'DM Sans','serif';">Learn more ></a>
+                </div>
+
+                <div class="cards shadow-xs p-8">
+                    <img src="./public/icon (3).png" alt="" class="w-14">
+                    <h1 class="text-sm mt-4 font-bold">Multiple Options</h1>
+                    <p class="text-gray-600 mt-2 mb-6">We're driven beyond just finishing projects. We want to find smart
+                        solutions.</p>
+                        <a href="#" class="text-xs text-blue-500 font-medium" style="font-family: 'DM Sans','serif';">Learn more ></a>
+                </div>
+
+                <div class="cards shadow-xs p-8">
+                    <img src="./public/icon (4).png" alt="" class="w-14">
+                    <h1 class="text-sm mt-4 font-bold">Customer Support</h1>
+                    <p class="text-gray-600 mt-2 mb-6">We're driven beyond just finishing projects. We want to find smart
+                        solutions.</p>
+                        <a href="#" class="text-xs text-blue-500 font-medium" style="font-family: 'DM Sans','serif';">Learn more ></a>
+                </div>
+
+                <div class="cards shadow-xs p-8">
+                    <img src="./public/icon (5).png" alt="" class="w-14">
+                    <h1 class="text-sm mt-4 font-bold">Integrated with Shopify</h1>
+                    <p class="text-gray-600 mt-2">We're driven beyond just finishing projects. We want to find smart
+                        solutions.</p>
+                        <a href="#" class="text-xs text-blue-500 font-medium" style="font-family: 'DM Sans','serif';">Learn more ></a>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
