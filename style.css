@@ -111,3 +111,7 @@ section{
   list-style: url("./assets/li.png");
   font-family: "DM Sans", sans-serif;
 }
+
+.custom-p{
+  line-height: 30px;
+}
