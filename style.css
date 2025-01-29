@@ -31,7 +31,7 @@ main{
   scroll-behavior: smooth;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
-  transition: scroll-snap-align 0.5s ease-in-out;
+  transition: scroll-snap-align 0.8s ease-in-out;
   background: #F9FBFD;
   font-family: "Arvo", serif;
 }
@@ -65,7 +65,7 @@ section{
 }
 
 .sec-3-li{
-  list-style: url("./public/li.png");
+  list-style: url("./assets/li.png");
   font-family: "DM Sans", sans-serif;
 }
 
@@ -80,4 +80,34 @@ section{
   content: '';
   position: relative;
   top: -10px;
+}
+
+.man{
+  width: 500px;
+  height: 600px;
+  border-radius: 10px 30% 10px 30%;
+}
+
+.chat-bubble{
+  background: #5080FB;
+  width: 277px;
+  height: 143px;
+  border-radius: 30px 30px 3px 30px;
+}
+
+.man-left{
+  width: 470px;
+  height: 573px;
+}
+
+.man-left-h1{
+  line-height: 55px;
+}
+.man-left-p{
+  line-height: 36px;
+}
+
+.man-left-li{
+  list-style: url("./assets/li.png");
+  font-family: "DM Sans", sans-serif;
 }
