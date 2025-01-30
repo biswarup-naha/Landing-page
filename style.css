@@ -17,6 +17,10 @@
 .btn{
   background-color: #56BBD0;
 }
+.btn-2{
+  background-color: #56BBD0;
+  width: 400px;
+}
 
 .sec-2{
   height: 100vh;
@@ -39,6 +43,7 @@ main{
 section{
   scroll-snap-align: start;
 }
+
 
 .cards{
   max-height: 18rem;
@@ -114,4 +119,17 @@ section{
 
 .custom-p{
   line-height: 30px;
+}
+
+.pic-2{
+  width:470px;
+  border-radius: 5px;
+}
+
+footer{
+  height: 450px;
+}
+
+.footer-gap{
+  gap: 418px;
 }
