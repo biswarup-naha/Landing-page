@@ -31,7 +31,7 @@
   background-color: white;
 }
 
-main{
+main, .scrollable{
   scroll-behavior: smooth;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
